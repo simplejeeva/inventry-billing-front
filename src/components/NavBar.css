@@ -1,0 +1,24 @@
+.navbar {
+  box-shadow: 3px 3px 5px rgba(150, 148, 148, 0.5);
+}
+a,
+li,
+.nav-link {
+  font-weight: bold;
+  color: var(--indigo) !important;
+}
+
+#navbarNav {
+  justify-content: center;
+}
+.navbar-nav {
+  justify-content: center;
+  align-items: center;
+}
+ul > li > a {
+  font-weight: 600;
+}
+.nav-item:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
