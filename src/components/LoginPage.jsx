@@ -12,10 +12,10 @@ function LoginPage() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const userContextData = useContext(UserContext);
-  const { handleChange, values, handleSubmit } = useFormik({
+  const { handleChange, values, handleSubmit, touched, errors } = useFormik({
     initialValues: {
-      username: "",
-      password: "",
+      username: "Test",
+      password: "Test1287@",
     },
     onSubmit: async (values) => {
       try {
